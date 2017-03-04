@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800');
+body{
+    background-color: #ff7547;
+    
+}
+table{
+    width: 100%;
+}
+.intro-wrap{
+    padding: 50px 0;
+    // width: 700px;
+}
+.title{
+    color: #ff7547;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.sub-title{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    p{
+        padding-bottom: 30px;
+    }
+}
+.camera-txt{
+    padding: 100px 0;
+    padding-top: 120px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    .bold{
+        font-weight: 800;
+    }
+}
