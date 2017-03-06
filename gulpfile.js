@@ -127,7 +127,7 @@ gulp.task('js', function(){
   return gulp.src(path.src.js)
   .pipe(plumber())
   .pipe(rigger())
-  .pipe(uglify())
+  // .pipe(uglify())
   .pipe(concat('script.js'))
   .pipe(gulp.dest(path.build.js))
   .pipe(browserSync.stream());
@@ -137,7 +137,7 @@ gulp.task('js-vendor', function(){
   return gulp.src(path.src.jsVendor)
   .pipe(plumber())
   .pipe(rigger())
-  .pipe(uglify())
+  // .pipe(uglify())
   .pipe(concat('vendor.js'))
   .pipe(gulp.dest(path.build.jsVendor))
   .pipe(browserSync.stream());
